@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+
+}
+
+#menuleft{
+    height: 0px;
+    width: 500px;
+    background-color: #2c2c2c;
+    position: absolute;
+    
+
+}
+#okk{
+    list-style: none;
+    font-size: 0px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 660px;
+}
+.lip{
+    padding-bottom: 130px;
+}
+@keyframes entre {
+    0%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+    
+}
+@keyframes ranger {
+    0%{
+        transform: scaleY(1);
+    }100%{
+        transform: scaleY(0);
+    }
+}
+.text{
+    background-color: #2c2c2c;
+    color: aliceblue;
+    font-size: 0px;
+    margin: 0;
+    height: 0px;
+}
+#accor1{
+    background-color: red;
+
+}
+#accor3{
+    background-color: red;
+
+}
+#accor2{
+    background-color: red;
+
+}
+.ui{
+    font-size: 16px;
+    color:black ;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin: 0;
+}
+
+/*}else{
+        textee[index].style.fontSize = "0px";
+        textee[index].style.height = "0px";
+        trueee = true;
+    }
+    
+      lili[index].addEventListener('click', ()=>{
+        textee[index].style.fontSize = "32px";
+        textee[index].style.height = "50px";
+        trueee = false;*/
+
+        /*for (let index = 0; index < textee.length; index++) {
+    lili[index].addEventListener('click', ()=>{
+        textee[index].style.fontSize = "32px";
+        textee[index].style.height = "50px";
+
+    })
+}
+*/

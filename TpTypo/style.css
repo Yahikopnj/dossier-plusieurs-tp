@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "extralight";
+    src: url(static/Oswald-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(static/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(static/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: "light";
+    src: url(static/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(static/Oswald-Regular.ttf);
+}
+
+h1 {
+    font-family: "extralight";
+}
+
+h2 {
+    font-family: "regular";
+}
+
+p {
+    font-family: "bold";
+}
+
+#Titre {
+    font-family: "light";
+}
+
+#non {
+    font-family: "medium";
+}
+
+#couleurrouge {
+          color: red;
+}
+
+#Majuscule {
+    text-transform: uppercase;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#tinquiete {
+    color:crimson;
+}
+
+#ahouais {
+    color:chartreuse;
+}
+
+#ok {
+    color:mediumblue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: cyan;
+}
+

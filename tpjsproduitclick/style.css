@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: beige;
+}
+
+#contproduit1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+#dragonblanc{
+    height: 200px;
+    width: 150px;
+}
+#red{
+    height: 200px;
+    width: 150px;
+}
+#exodia{
+    height: 200px;
+    width: 150px;
+}
+#contproduit2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+.carte{
+    height: 200px;
+    width: 150px;
+}
+.allforone{
+    display: flex;
+    justify-content: space-around;
+}
+.texte{
+    width: 150px;
+}
+.prix{
+    display: flex;
+    justify-content: flex-end;
+}
+#afficheproduit{
+    width: 80%;
+    background-color: cadetblue;
+    /* height: 500px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dragonw{
+    height: 350px;
+    width: 250px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#textaffi{
+    font-size: 32px;
+}

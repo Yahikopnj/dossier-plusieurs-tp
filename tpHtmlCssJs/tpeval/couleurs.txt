@@ -1,0 +1,11 @@
+titre + texte recherche:
+#FBFBFB
+
+petit rectangle supérieur menu:
+#282C2D
+
+couleur fond barre de recherche:
+#7D7C7C
+
+Autres couleurs:
+#090A0E (modifié)

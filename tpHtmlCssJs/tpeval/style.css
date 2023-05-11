@@ -1,0 +1,171 @@
+/*Code css ici*/
+@font-face {
+    font-family: "aeros";
+    src: url(./fonts/Aeros/Aeros.ttf)format(truetype);
+}
+@font-face {
+    font-family: "ubuntu";
+    src: url(./fonts/Ubuntu/Ubuntu-Regular.ttf)format(truetype);
+}
+@font-face {
+    font-family: "condensed" ;
+    src: url(./fonts/UbuntuCondensed/UbuntuCondensed-Regular.ttf)format(truetype);
+}
+body{
+    margin: 0px 50px 0px 50px;
+}
+
+#divbackground{
+    background-image: url(./images/banniere.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+#tremon{
+    font-size: 42px;
+    margin-right: 80px;
+    font-family: "aeros";
+    font-weight: lighter;
+}
+.aheader{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+#ulheader{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin-block: 0;
+}
+#divicone{
+    width: 100%;
+}
+.fa-search:before {
+font-size: 25px;
+color: #7D7C7C;
+margin-left: 10px;
+margin-right: 70px;
+
+}
+.fa-shopping-cart:before{
+    font-size: 25px;
+    color: black;
+}
+.liheader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "ubuntu";
+}
+.liheader:hover{
+    border-top: solid;
+    border-color: #7D7C7C;
+    border-width: 8px 0 0 0;
+}
+.retir{
+    list-style: none;
+    font-size: 24px;
+    font-family: "ubuntu";
+    text-align: center;
+    background-color: #7D7C7C;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.btnretir{
+    padding: 0;
+}
+#texteh2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: lighter;
+    font-family: "ubuntu";
+}
+#sectimg{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.sect1{
+    width: 22%;
+    position: relative;
+}
+.just{
+    text-align: justify;
+    width: 95%;
+    font-family: "ubuntu";
+}
+.iconfoot{
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+#divic{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 5px 5px 5px 5px;
+}
+header{
+    border-bottom: solid;
+    border-color: black;
+    border-width: 3px 3px 3px 3px;
+}
+/* #sect1{
+    position: relative;
+} */
+
+.btnadd{
+    list-style: none;
+    font-size: 24px;
+    font-family: "ubuntu";
+    background-color: #7D7C7C;
+    text-align: center;
+    border-radius: 5px;
+}
+.btnimg{
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+#btnsupp{
+padding: 0;
+display: flex;
+justify-content: flex-end;
+-webkit-user-select: none;
+}
+#supp{
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: "ubuntu";
+    background-color: #7D7C7C;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#testp{
+    position: absolute;
+    color: #7D7C7C;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    background-color: rgba(251, 251, 251, 0.7);
+    border-radius: 5px;
+}
+/* barre de recherche*/ 
+#searchbar{position:relative; width:150px;  height:auto;padding-top: 10px;}
+.formulaire               {width: 100%;display: flex;}
+.formulaire .champ       {width:120px; color: #fbfbfb; background-color: #7D7C7C; height:25px;margin-bottom: 5px;}
+/*fin barre*/

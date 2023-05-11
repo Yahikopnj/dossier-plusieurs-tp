@@ -1,0 +1,81 @@
+#cont1{
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+
+#cont2{
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+}
+#cont3{
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+#indra{
+    height: 500px;
+    width: 550px;
+}
+#conttex{
+    display: none;
+    font-size: 24px;
+}
+#contp{
+    display: none;
+    font-size: 24px;
+}
+#contpp{
+    display: none;
+    font-size: 24px;
+}
+#btnn{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width: 100%;
+}
+
+#gigachad{
+
+     flex-direction: column-reverse; 
+} 
+#yoyo{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    margin: 0;
+}
+
+#deroule{
+    width: 100%;
+    height: 200px;
+}
+#yoyo2{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    margin: 0;
+    display: none;
+    
+}
+#yoyo3{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0;
+    width: 50px;
+    color: azure;
+    display: none;
+}
+#sepa{
+    height: 15px;
+    width: 1px;
+    background-color: black;
+    z-index: 55;
+}

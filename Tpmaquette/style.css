@@ -1,0 +1,40 @@
+#Grosse {
+    background-image: url("../Tpmaquette/statics/image/889c13c716cd12ef1710a0c319a413c5.jpg");
+    height: 270px;
+    background-size: cover;
+    width: 100%;
+}
+
+#imagemontre {
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+#bouton {
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#user{
+    height: 20px;
+    width: 20px;
+}
+#cart {
+    color: aliceblue;
+    height: 20px;
+    width: 20px;
+}
+
+#user2{
+    height: 20px;
+    width: 20px;
+}
+
+#allimg{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 90%;
+}

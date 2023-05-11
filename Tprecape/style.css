@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "thin";
+    src: url(./static/dafont/roboto/Roboto-Thin.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "ligth";
+    src: url(./static/dafont/roboto/Roboto-Light.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(./static/dafont/roboto/Roboto-Bold.ttf) format(truetype);
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 380px;
+}
+
+li {
+    margin: 0px 30px 0px 30px;
+    font-size: 30px;
+}
+
+#barre {
+    display: flex;
+    justify-content: center;
+}
+
+#pop {
+    margin-left: 30px;
+    height: 170px;
+}
+
+body {
+    background-image: url(./static/image/texture.png);
+}
+
+#barre {
+    display: flex;
+    justify-content: center;
+}
+
+#imgow {
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+    margin-left: 20px;
+}
+
+#giga {
+    display: flex;
+}
+
+#texteow {
+    width: 700px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#imgow1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#imgwo {
+    border-radius: 5%;
+    width: 450px;
+}
+
+#imgow3 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px;
+    width: 100%;
+}
+
+.scoot {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 15%;
+}
+
+.colorO {
+    color: orange;
+}
+
+#btn{
+    width: 150px;
+}
+p{
+    text-align: justify;
+}
+#imgftn{
+    border-radius: 5%;
+    width: 430px;
+    
+}
+.ftn4{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 15%; 
+}
+#imgftn3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 80%;
+    padding-left: 50px;
+}
+.ftn4 :hover{
+    height: 150px;
+    width: 150px;
+}
+#clicktoen{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;}
+    @media screen and (max-width:480px) {
+}
+@media screen and (max-width:480px){
+    #texteowres{
+        flex-direction: column;
+        display: block;
+        column-width: 10em;
+    }
+}     
+@media screen and (min-width:1000px) {
+    .burger-icon span{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:480px){
+    .burger-icon span{
+        display: block;
+    }
+}
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  @media screen and (min-width: 500px) {
+    #pop,#nume {
+        display: block;
+    }
+}
+@media screen and (max-width: 700px) {
+   #pop,#nume{
+        display: none;
+    }
+}
+
